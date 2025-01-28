@@ -1,0 +1,21 @@
+terraform/
+├── main.tf           # Entry point
+├── variables.tf      # Global variables
+├── outputs.tf        # Global outputs
+├── modules/          # Custom modules
+    ├── vpc/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+    ├── eks/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+    ├── rds/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+    ├── ecr/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
